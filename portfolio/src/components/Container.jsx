@@ -1,9 +1,34 @@
-// For each project that is featured in your portfolio, include the following:
 
-// * An image of the deployed application (either a short animated GIF or screenshot)
+import React, { useState } from 'react';
+import Naviagation from './Naviagation';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
-// * The title of the project
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('Home');
 
-// * A link to the deployed application
+  //checking to see what the value of `currentPage` is. 
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    return <Resume />;
+  };
 
-// * A link to the corresponding GitHub repository
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <Naviagation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
+  );
+}

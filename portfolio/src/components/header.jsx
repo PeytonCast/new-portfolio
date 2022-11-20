@@ -2,7 +2,7 @@
 // contains name
 // contains naviagation
 import React from 'react';
-import Naviagation from './naviagtion';
+import Naviagation from './Naviagtion';
 function Header() {
   return (
     <div>

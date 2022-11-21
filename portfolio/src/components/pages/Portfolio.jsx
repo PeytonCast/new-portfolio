@@ -12,6 +12,7 @@ import React from "react";
 function Portfolio () {
     return (
         <div>
+            <h3>Portfolio</h3>
             <p>
             I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
             For each project that is featured in your portfolio, include the following:

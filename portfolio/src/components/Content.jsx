@@ -11,8 +11,8 @@ export default function PortfolioContainer() {
 
   //checking to see what the value of `currentPage` is. 
   const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -20,7 +20,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Resume />;
+    // this will be the first thing someone sees
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

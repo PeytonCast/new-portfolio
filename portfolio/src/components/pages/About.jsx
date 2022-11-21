@@ -8,8 +8,9 @@ function About () {
             <p>
                I am a... <br/>
                Full Stack Web Developer certified in Google Analytics 4.
-               Enjoys problem-solving, learning new technologies, 
-               and developing new technologies and ideas. Fast learner who is 
+               I enjoy problem-solving, learning new technologies, 
+               and developing new technologies and ideas. 
+               I'm a fast learner who is 
                competent in good communication, and working in a team environment.
             </p>
         </div>

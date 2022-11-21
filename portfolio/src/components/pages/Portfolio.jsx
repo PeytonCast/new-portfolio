@@ -8,3 +8,16 @@
 // * A link to the deployed application
 
 // * A link to the corresponding GitHub repository
+import React from "react";
+function Portfolio () {
+    return (
+        <div>
+            <p>
+            I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+            For each project that is featured in your portfolio, include the following:
+
+            </p>
+        </div>
+    )
+}
+export default Portfolio;

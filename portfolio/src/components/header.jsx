@@ -2,12 +2,12 @@
 // contains name
 // contains naviagation
 import React from 'react';
-import Naviagation from './Naviagtion';
+// import Naviagation from './Naviagtion';
 function Header() {
   return (
     <div>
         <h2>Peyton Castillo</h2>
-        <Naviagation/>
+        {/* <Naviagation/> */}
     </div>
   );
 }

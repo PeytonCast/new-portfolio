@@ -6,7 +6,7 @@
 // Resume
 import React from 'react';
 
-function Naviagation({ currentPage, handlePageChange }) {
+function Naviagtion({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -50,4 +50,4 @@ function Naviagation({ currentPage, handlePageChange }) {
   );
 }
 
-export default Naviagation;
+export default Naviagtion;

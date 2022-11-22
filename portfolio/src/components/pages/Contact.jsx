@@ -14,7 +14,7 @@ function Contact () {
             
         </div>
         <div>
-            
+            {/* use boot strap for pop ups */}
         <form action="/action_page.php">
              <label for="name">Name</label> <br />
              <input type="text" id="name" name="name" placeholder="Your name.."/> <br />

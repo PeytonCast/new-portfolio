@@ -25,3 +25,7 @@ body{
     border-style:outset;
     border-width: 10px;
 }
+ul{
+    list-style: none;
+    padding: 0px;
+}

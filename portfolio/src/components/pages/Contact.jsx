@@ -67,9 +67,9 @@ function Contact() {
           Or fillout this form and I'll get back to you as soon as possible.
         </p>
       </div>
-      <div className="card mt-4 p-3">
+      <div className="card mt-4 p-3 mb-5">
         {/* use boot strap for pop ups */}
-        <form action="/action_page.php" className="form-group mb-5">
+        <form action="/action_page.php" className="form-group">
           <label for="name">Name</label> <br />
           <input
             type="text"

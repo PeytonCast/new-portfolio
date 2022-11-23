@@ -11,60 +11,62 @@
 import React from "react";
 function Portfolio () {
     return (
-        <div>
+        <div className="container">
             <h3>Portfolio</h3>
+            <div className="row justify-content-center">
             {/* BLOG SPOT */}
-            <section className="work">
-            <header>
+            <section className="card shadow my-2" style={{width: "12rem"}}>
+            <img src="https://via.placeholder.com/150" alt="Portfolio" />
+            <div className="p-2">
             <p><a href="https://github.com/PeytonCast/Blog-Spot">Blog-Spot (repository)</a></p>
             <p><a href="https://blog-spot-3.herokuapp.com/">Blog-Spot(website)</a></p>
-            </header> 
-            <img src="https://via.placeholder.com/150" alt="Portfolio" />
+            </div> 
             </section>
 
             {/* THIS APP */}
-            <section className="work">
-            <header>
-            <p><a href="https://github.com/PeytonCast/new-portfolio">This Portfolio's Repository</a></p>
-            </header> 
+            <section className="card shadow my-2" style={{width: "12rem"}}>
             <img src="https://via.placeholder.com/150" alt="Portfolio" />
+            <div className="p-2">
+            <p><a href="https://github.com/PeytonCast/new-portfolio">This Portfolio's Repository</a></p>
+            </div> 
             </section>
 
             {/* TEXT EDITOR PWA */}
-            <section className="work">
-            <header>
+            <section className="card shadow my-2" style={{width: "12rem"}}>
+            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            <div className="p-2">
                 <p><a href="https://github.com/PeytonCast/PWA-text-editor">Text Editor PWA (repository)</a></p>
                 <p><a href="https://gt12-3.herokuapp.com/">Text Editor PWA (site)</a></p>
-            </header> 
-            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            </div> 
             </section>
 
             {/*  RECIPE FINDER */}
-            <section className="work">
-            <header>
+            <section className="card shadow my-2" style={{width: "12rem"}}>
+            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            <div className="p-2">
                 <p><a href="https://github.com/PeytonCast/Recipe-finder">Recipe Finder (repository)</a></p>
                 <p><a href="https://peytoncast.github.io/Project-1-Recipe-finder/">Recipe Finder (site)</a></p>
-            </header> 
-            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            </div> 
             </section>
             
             {/* PASSWORD GENERATOR */}
-            <section className="work">
-            <header>
+            <section className="card shadow my-2" style={{width: "12rem"}}>
+            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            <div className="p-2">
                 <p><a href="https://github.com/PeytonCast/password_generator">Password Generator (repository)</a></p>
                 <p><a href="https://peytoncast.github.io/password_generator/Develop/">Password Generator (site)</a></p>
-            </header> 
-            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            </div> 
             </section>
 
             {/* A-SCARY-QUIZ */}
-            <section className="work">
-            <header>
+            <section className="card shadow my-2" style={{width: "12rem"}}>
+            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            <div className="p-2">
                 <p><a href="https://github.com/PeytonCast/A-SCARY-QUIZ">A-SCARY-QUIZ (repository)</a></p>
                 <p><a href="https://peytoncast.github.io/A-SCARY-QUIZ/Assets/index1.html">A-SCARY-QUIZ (site)</a></p>
-            </header> 
-            <img src="https://via.placeholder.com/150" alt="Text editor" />
+            </div> 
             </section>
+            </div>
         </div>
     )
 }

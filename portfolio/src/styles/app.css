@@ -1,5 +1,5 @@
 :root {
-    --laurel-green: hsla(100, 17%, 69%, 1);
+    --laurel-green: rgb(144, 160, 137);
     --purple-navy: hsla(231, 26%, 34%, 1);
     --raw-umber: hsla(25, 21%, 42%, 1);
     --redwood: hsla(9, 38%, 49%, 1);
@@ -7,9 +7,9 @@
 }
 
 
-/* .stick-footer{
-    background-color: var(--redwood);
-}  */
+body{
+    background-color: #f1f1f1;
+}
 .header {
     background-color: var(--redwood);
 }
@@ -18,3 +18,10 @@
 }
 .flame {background-color: var(--flame);}
 
+.skills {background-color: var(--laurel-green);}
+.img1 {
+    float:right;
+    border-color: var(--laurel-green);
+    border-style:outset;
+    border-width: 10px;
+}

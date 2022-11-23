@@ -69,7 +69,7 @@ function Contact() {
       </div>
       <div className="card mt-4 p-3">
         {/* use boot strap for pop ups */}
-        <form action="/action_page.php" className="form-group">
+        <form action="/action_page.php" className="form-group mb-5">
           <label for="name">Name</label> <br />
           <input
             type="text"

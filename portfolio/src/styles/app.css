@@ -5,3 +5,16 @@
     --redwood: hsla(9, 38%, 49%, 1);
     --flame: hsla(16, 82%, 56%, 1);
 }
+
+
+/* .stick-footer{
+    background-color: var(--redwood);
+}  */
+.header {
+    background-color: var(--redwood);
+}
+.navb {
+    background-color: var(--raw-umber);
+}
+.flame {background-color: var(--flame);}
+

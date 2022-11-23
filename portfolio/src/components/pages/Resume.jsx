@@ -6,7 +6,7 @@ function Resume () {
         <div>
             <h3>Resume</h3>
             <p>Link to downloadabe resume.</p>
-            <a href={pcresume} download>click here to download</a>
+            <a href={pcresume} download="Peyton_Castillo_Resume">click here to download</a>
         </div>
     )
 }

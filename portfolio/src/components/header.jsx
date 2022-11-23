@@ -2,12 +2,12 @@
 // contains name
 // contains naviagation
 import React from 'react';
-// import Naviagation from './Naviagtion';
+import '../styles/app.css';
 function Header() {
   return (
     <div>
-        <h2>Peyton Castillo</h2>
-        {/* <Naviagation/> */}
+        <h2 className='p-3 header text-light m-0'>Peyton Castillo</h2>
+     
     </div>
   );
 }

@@ -8,13 +8,13 @@ import React from 'react';
 
 function Naviagtion({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs navb ">
+      <li className="nav-item ">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
           // terneray operator that checks to see if the current page is "Home"
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link text-light'}
         >
           About
         </a>
@@ -23,7 +23,7 @@ function Naviagtion({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link text-light'}
         >
           Contact
         </a>
@@ -32,7 +32,7 @@ function Naviagtion({ currentPage, handlePageChange }) {
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link text-light'}
         >
           Portfolio
         </a>
@@ -41,7 +41,7 @@ function Naviagtion({ currentPage, handlePageChange }) {
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link text-light'}
         >
           Resume
         </a>

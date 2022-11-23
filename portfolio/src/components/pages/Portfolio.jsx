@@ -14,7 +14,7 @@ function Portfolio () {
         <div>
             <h3>Portfolio</h3>
             {/* BLOG SPOT */}
-            <section class="work">
+            <section className="work">
             <header>
             <p><a href="https://github.com/PeytonCast/Blog-Spot">Blog-Spot (repository)</a></p>
             <p><a href="https://blog-spot-3.herokuapp.com/">Blog-Spot(website)</a></p>
@@ -23,7 +23,7 @@ function Portfolio () {
             </section>
 
             {/* THIS APP */}
-            <section class="work">
+            <section className="work">
             <header>
             <p><a href="https://github.com/PeytonCast/new-portfolio">This Portfolio's Repository</a></p>
             </header> 
@@ -31,7 +31,7 @@ function Portfolio () {
             </section>
 
             {/* TEXT EDITOR PWA */}
-            <section class="work">
+            <section className="work">
             <header>
                 <p><a href="https://github.com/PeytonCast/PWA-text-editor">Text Editor PWA (repository)</a></p>
                 <p><a href="https://gt12-3.herokuapp.com/">Text Editor PWA (site)</a></p>
@@ -40,7 +40,7 @@ function Portfolio () {
             </section>
 
             {/*  RECIPE FINDER */}
-            <section class="work">
+            <section className="work">
             <header>
                 <p><a href="https://github.com/PeytonCast/Recipe-finder">Recipe Finder (repository)</a></p>
                 <p><a href="https://peytoncast.github.io/Project-1-Recipe-finder/">Recipe Finder (site)</a></p>
@@ -49,7 +49,7 @@ function Portfolio () {
             </section>
             
             {/* PASSWORD GENERATOR */}
-            <section class="work">
+            <section className="work">
             <header>
                 <p><a href="https://github.com/PeytonCast/password_generator">Password Generator (repository)</a></p>
                 <p><a href="https://peytoncast.github.io/password_generator/Develop/">Password Generator (site)</a></p>
@@ -58,7 +58,7 @@ function Portfolio () {
             </section>
 
             {/* A-SCARY-QUIZ */}
-            <section class="work">
+            <section className="work">
             <header>
                 <p><a href="https://github.com/PeytonCast/A-SCARY-QUIZ">A-SCARY-QUIZ (repository)</a></p>
                 <p><a href="https://peytoncast.github.io/A-SCARY-QUIZ/Assets/index1.html">A-SCARY-QUIZ (site)</a></p>

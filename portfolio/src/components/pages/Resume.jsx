@@ -3,8 +3,8 @@ import pcresume from "../../assets/pcresume.pdf"
 import React from "react";
 function Resume () {
     return (
-        <div className="card m-2">
-            <div class="card-header">
+        <div className="card m-4">
+            <div className="card-header">
             <h3>Resume</h3>
              </div>
             <div className="card-body">

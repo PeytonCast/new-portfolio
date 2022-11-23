@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <Naviagtion currentPage={currentPage} handlePageChange={handlePageChange} classname="header "/>
+      <Naviagtion currentPage={currentPage} handlePageChange={handlePageChange} className="header "/>
       {renderPage()}
     </div>
   );

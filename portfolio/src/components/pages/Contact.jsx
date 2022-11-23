@@ -2,30 +2,113 @@
 
 // add is email validation
 
+import React, { useState } from "react";
+//function isEmail(){
+//     let email = ''
+//     email = document.getElementById('email').value()
+//     const pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
-import React from "react";
-function Contact () {
-    return (
-        <section>
-        <div>
-            <h3>Contact Me</h3>
-            <p>Let's get in touch contact me at <a href="mailto:viol.bailie-0x@icloud.com"> viol.bailie-0x@icloud.com.  </a>
-            <br />Or fillout this form and I'll get back to you as soon as possible.</p>
-            
-        </div>
-        <div>
-            {/* use boot strap for pop ups */}
-        <form action="/action_page.php">
-             <label for="name">Name</label> <br />
-             <input type="text" id="name" name="name" placeholder="Your name.."/> <br />
-             <label for="email">Email</label> <br />
-             <input type="email" id="email" name="email" placeholder="email.."/> <br />
-             <label for="message">Message</label> <br />
-             <textarea id="message" name="message" placeholder="Write something.." ></textarea> <br />
-             <input type="submit" value="Submit"/> 
+//     // logging the js value of email
+//     console.log(email, 'email')
+//     // if email matches regex pattern then console.log 'match'
+//     if(email.match(pattern)){
+//         console.log('match')
+//     }
+//     // if it doesnt then throw an err
+//     else{
+//         console.log('err')
+//     }
+// }
+const validEmail = new RegExp("^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$");
+
+function Contact() {
+  // declaring the value as empty
+  const [email, setEmail] = useState("");
+  const [userName, setName] = useState("");
+  const [text, setText] = useState("")
+  // declaring the err as false
+  const [emailErr, setEmailErr] = useState(false);
+  const [userErr, setUserErr] = useState(false);
+  const [textErr, setTextErr] = useState(false)
+  // if form is correct then send this 
+  const [mesSent, isSent] = useState(false);
+  // validation function test email && set off err
+  const validate = () => {
+    if (!validEmail.test(email)) {
+      setEmailErr(true);
+    }
+    if (!userName){
+        setUserErr(true)
+    }
+    if (!text){
+        setTextErr(true)
+    }
+    if(userName && validEmail.test(email)){
+        setName('')
+        setEmail('')
+        setText('')
+        setEmailErr(false);
+        setUserErr(false)
+        setTextErr(false)
+        isSent(true)
+    }
+  };
+  return (
+    <section className="p-4">
+      <div className="card p-3">
+        <h3>Contact Me</h3>
+        <p>
+          Let's get in touch contact me at{" "}
+          <a href="mailto:viol.bailie-0x@icloud.com">
+            {" "}
+            viol.bailie-0x@icloud.com.{" "}
+          </a>
+          <br />
+          Or fillout this form and I'll get back to you as soon as possible.
+        </p>
+      </div>
+      <div className="card mt-4 p-3">
+        {/* use boot strap for pop ups */}
+        <form action="/action_page.php" className="form-group">
+          <label for="name">Name</label> <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name.."
+            className="form-control"
+            onChange={(n) => setName(n.target.value)}
+          />
+          {userErr && <p className="text-danger">**Please provide your name.**</p>}
+          <br />
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email.."
+            className="form-control"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          {emailErr && <p className="text-danger">**Your email is invalid.**</p>}
+          <br />
+          <label for="message">Message</label> <br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write something.."
+            className="form-control"
+            onChange={(n) => setText(n.target.value)}
+          ></textarea>
+          {textErr && <p className="text-danger">**This feild cannot be empty.**</p>}
+          
+          <br />
+          <input className="btn btn-success" type="button" value="send" onClick={validate}/>
+          {mesSent && <h4 className="text-success">Messsage sent!</h4>}
         </form>
-        </div>
-        </section>
-    )
+      </div>
+    </section>
+  );
 }
 export default Contact;

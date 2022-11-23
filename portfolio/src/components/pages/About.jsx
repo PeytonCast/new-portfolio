@@ -16,6 +16,7 @@ function About () {
                I'm a fast learner who is 
                competent in good communication, and working in a team environment.
             </p>
+            {/* need help o this */}
             <ul className="ml-2 mr-2 mb-5 col-lg-2 col-md-2 list-group">
                      <li className="list-group-item skills text-light"><h5>Skills</h5></li>
                      <li className="list-group-item font-weight-light">JavaScript</li>

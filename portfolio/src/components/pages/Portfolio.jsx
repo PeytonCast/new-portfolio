@@ -16,7 +16,7 @@ function Portfolio () {
             <div className="d-flex flex-wrap justify-content-around mb-5">
             {/* <div> */}
                     {/* BLOG SPOT */}
-                    <section className="card shadow my-2" style={{width: "12rem"}}>
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src="https://via.placeholder.com/150" alt="Portfolio" />
                     <div className="p-2">
                     <p><a href="https://github.com/PeytonCast/Blog-Spot">Blog-Spot (repository)</a></p>
@@ -25,7 +25,7 @@ function Portfolio () {
                     </section>
 
                     {/* THIS APP */}
-                    <section className="card shadow my-2" style={{width: "12rem"}}>
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src="https://via.placeholder.com/150" alt="Portfolio" />
                     <div className="p-2">
                     <p><a href="https://github.com/PeytonCast/new-portfolio">This Portfolio's Repository</a></p>
@@ -33,7 +33,7 @@ function Portfolio () {
                     </section>
 
                     {/* TEXT EDITOR PWA */}
-                    <section className="card shadow my-2" style={{width: "12rem"}}>
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src="https://via.placeholder.com/150" alt="Text editor" />
                     <div className="p-2">
                         <p><a href="https://github.com/PeytonCast/PWA-text-editor">Text Editor PWA (repository)</a></p>
@@ -43,7 +43,7 @@ function Portfolio () {
             {/* </div>
             <div> */}
                     {/*  RECIPE FINDER */}
-                    <section className="card shadow my-2" style={{width: "12rem"}}>
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src="https://via.placeholder.com/150" alt="Text editor" />
                     <div className="p-2">
                         <p><a href="https://github.com/PeytonCast/Recipe-finder">Recipe Finder (repository)</a></p>
@@ -52,7 +52,7 @@ function Portfolio () {
                     </section>
                     
                     {/* PASSWORD GENERATOR */}
-                    <section className="card shadow my-2" style={{width: "12rem"}}>
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src="https://via.placeholder.com/150" alt="Text editor" />
                     <div className="p-2">
                         <p><a href="https://github.com/PeytonCast/password_generator">Password Generator (repository)</a></p>
@@ -61,7 +61,7 @@ function Portfolio () {
                     </section>
 
                     {/* A-SCARY-QUIZ */}
-                    <section className="card shadow my-2" style={{width: "12rem"}}>
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src="https://via.placeholder.com/150" alt="Text editor" />
                     <div className="p-2">
                         <p><a href="https://github.com/PeytonCast/A-SCARY-QUIZ">A-SCARY-QUIZ (repository)</a></p>

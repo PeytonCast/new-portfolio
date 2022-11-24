@@ -44,9 +44,6 @@ function Contact() {
         setTextErr(true)
     }
     if(userName && validEmail.test(email)){
-        setName('')
-        setEmail('')
-        setText('')
         setEmailErr(false);
         setUserErr(false)
         setTextErr(false)
@@ -69,7 +66,7 @@ function Contact() {
       </div>
       <div className="card mt-4 p-3 mb-5">
         {/* use boot strap for pop ups */}
-        <form action="/action_page.php" className="form-group">
+        <form action="https://formsubmit.co/viol.bailie-0x@icloud.com" method="POST" className="form-group">
           <label for="name">Name</label> <br />
           <input
             type="text"
@@ -86,7 +83,8 @@ function Contact() {
             type="email"
             id="email"
             name="email"
-            placeholder="email.."
+            placeholder="Email Address"
+            required
             className="form-control"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -104,8 +102,11 @@ function Contact() {
           {textErr && <p className="text-danger">**This feild cannot be empty.**</p>}
           
           <br />
-          <input className="btn btn-success" type="button" value="send" onClick={validate}/>
+          <input type="hidden" name="_next" value="https://peytoncast.github.io/new-portfolio/#contact"></input>
+          <input type="hidden" name="_captcha" value="false"></input>
+          <button className="btn btn-success" type="submit" onClick={validate}>Send</button>
           {mesSent && <h4 className="text-success">Messsage sent!</h4>}
+    
         </form>
       </div>
     </section>

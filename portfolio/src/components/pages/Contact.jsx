@@ -73,6 +73,7 @@ function Contact() {
             id="name"
             name="name"
             placeholder="Your name.."
+            required
             className="form-control"
             onChange={(n) => setName(n.target.value)}
           />
@@ -97,6 +98,7 @@ function Contact() {
             name="message"
             placeholder="Write something.."
             className="form-control"
+            required
             onChange={(n) => setText(n.target.value)}
           ></textarea>
           {textErr && <p className="text-danger">**This feild cannot be empty.**</p>}

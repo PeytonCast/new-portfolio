@@ -12,9 +12,8 @@ function About () {
                I am a... <br/>
                Full Stack Web Developer certified in Google Analytics 4.
                I enjoy problem-solving, learning new technologies, 
-               and developing new technologies and ideas. 
-               I'm a fast learner who is 
-               competent in good communication, and working in a team environment.
+               and developing new technologies. I love taking a good idea ang making it a reality.
+               I'm a fast learner, good communicator, and love working in a team environment!
             </p>
             <div className="">
                     {/* need help with this  style={{width: "12rem"}}*/}

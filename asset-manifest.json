@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.aaa6f2ba.css",
-    "main.js": "/new-portfolio/static/js/main.941135ab.js",
+    "main.js": "/new-portfolio/static/js/main.f6ac85b9.js",
     "static/media/Screenshot_20221128_082822.png": "/new-portfolio/static/media/Screenshot_20221128_082822.a839314e376adcfa0aa1.png",
     "static/media/Screenshot_20221215_083857.png": "/new-portfolio/static/media/Screenshot_20221215_083857.fb87f72859466169cdad.png",
-    "static/media/pcresume.pdf": "/new-portfolio/static/media/pcresume.4433ee60d2c80afee4ae.pdf",
+    "static/media/pcResume.pdf": "/new-portfolio/static/media/pcResume.3c612c55dbeef386901e.pdf",
     "static/media/Screenshot_20221128_080635.png": "/new-portfolio/static/media/Screenshot_20221128_080635.02fd0ad818f52468d4b3.png",
     "static/media/Screenshot_20221128_083204.png": "/new-portfolio/static/media/Screenshot_20221128_083204.8bff8f37f24f53454784.png",
     "static/media/Screenshot_20221128_081125.png": "/new-portfolio/static/media/Screenshot_20221128_081125.89ec582e2c3ddb2526a7.png",
     "static/media/Screenshot_20221128_082336.png": "/new-portfolio/static/media/Screenshot_20221128_082336.d480a9a495c55e24e36e.png",
     "index.html": "/new-portfolio/index.html",
     "main.aaa6f2ba.css.map": "/new-portfolio/static/css/main.aaa6f2ba.css.map",
-    "main.941135ab.js.map": "/new-portfolio/static/js/main.941135ab.js.map"
+    "main.f6ac85b9.js.map": "/new-portfolio/static/js/main.f6ac85b9.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa6f2ba.css",
-    "static/js/main.941135ab.js"
+    "static/js/main.f6ac85b9.js"
   ]
 }

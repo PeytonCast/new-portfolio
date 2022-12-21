@@ -20,7 +20,7 @@ function Resume () {
                             <li className="col-sm-12 col-md-4 font-weight-light mb-2"><img style={{width: "2rem"}}src="https://th.bing.com/th/id/OIP.1fZjQpkRMKTBGN_7H5YnFwHaGL?pid=ImgDet&rs=1" alt="express.js" /> Express.js </li>
                     </ul>
              <p className="card-text">Link to downloadabe resume.</p>
-             <a href={pcresume} className="badge badge-success p-2">click here to download</a>
+             <a href={pcresume} download className="badge badge-success p-2">click here to download</a>
             </div>
         </div>
     )

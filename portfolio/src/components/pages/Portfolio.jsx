@@ -14,7 +14,7 @@ import thisApp from "../../assets/img/Screenshot_20221128_080635.png"
 import textEditor from "../../assets/img/Screenshot_20221128_082336.png"
 import recipe from "../../assets/img/Screenshot_20221128_082822.png"
 import password_generator from "../../assets/img/Screenshot_20221128_083204.png"
-import quiz from "../../assets/img/Screenshot_20221128_083341.png"
+import img6 from "../../assets/img/Screenshot_20221215_083857.png"
 
 function Portfolio () {
     return (
@@ -25,18 +25,27 @@ function Portfolio () {
                     {/* BLOG SPOT */}
                     <section className="card shadow my-2" style={{width: "17rem"}}>
                     <img src={blog} alt="Portfolio" />
-                    <div className="p-2">
-                    <p><a href="https://github.com/PeytonCast/Blog-Spot">Blog-Spot (repository)</a></p>
-                    <p><a href="https://blog-spot-3.herokuapp.com/">Blog-Spot(website)</a></p>
-                    </div> 
+                        <div className="p-2">
+                            <p><a href="https://github.com/PeytonCast/Blog-Spot">Blog-Spot (repository)</a></p>
+                            <p><a href="https://blog-spot-3.herokuapp.com/">Blog-Spot(website)</a></p>
+                        </div> 
                     </section>
 
                     {/* THIS APP */}
                     <section className="card shadow my-2" style={{width: "17rem"}}>
-                    <img src={thisApp} alt="Portfolio" />
-                    <div className="p-2">
-                    <p><a href="https://github.com/PeytonCast/new-portfolio">This Portfolio's Repository</a></p>
-                    </div> 
+                        <img src={thisApp} alt="Portfolio" />
+                            <div className="p-2">
+                            <p><a href="https://github.com/PeytonCast/new-portfolio">This Portfolio's Repository</a></p>
+                            </div> 
+                    </section>
+
+                    {/* ResuMade */}
+                    <section className="card shadow my-2" style={{width: "17rem"}}>
+                        <img src={img6} alt="Text editor" />
+                            <div className="p-2">
+                                <p><a href="https://github.com/PeytonCast/ResuMade">ResuMade (repository)</a></p>
+                                <p><a href="https://resumade.herokuapp.com/">ResuMade (site)</a></p>
+                            </div> 
                     </section>
 
                     {/* TEXT EDITOR PWA */}
@@ -67,14 +76,7 @@ function Portfolio () {
                     </div> 
                     </section>
 
-                    {/* A-SCARY-QUIZ */}
-                    <section className="card shadow my-2" style={{width: "17rem"}}>
-                    <img src={quiz} alt="Text editor" />
-                    <div className="p-2">
-                        <p><a href="https://github.com/PeytonCast/A-SCARY-QUIZ">A-SCARY-QUIZ (repository)</a></p>
-                        <p><a href="https://peytoncast.github.io/A-SCARY-QUIZ/Assets/index1.html">A-SCARY-QUIZ (site)</a></p>
-                    </div> 
-                    </section>
+                    
                 </div>
             {/* </div> */}
         </div>

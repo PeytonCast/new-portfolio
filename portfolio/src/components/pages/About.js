@@ -5,7 +5,7 @@ function About () {
     return (
         <div>
             <h3 className="m-2">About Me</h3>
-            <img id="myself" style={{width: "200px"}} className="rounded-circle m-2 img1" src="https://media.licdn.com/dms/image/D5603AQHya5Omv95cNw/profile-displayphoto-shrink_800_800/0/1677247564965?e=2147483647&v=beta&t=U8pe_UTfVUV2N-T-v5HU7CHxtqt9kyZKl9A608KL6JY" alt="profile pic"> </img>
+            <img id="myself" style={{width: "200px"}} className="rounded-circle m-2 img1" src="https://media.licdn.com/dms/image/D5603AQHya5Omv95cNw/profile-displayphoto-shrink_800_800/0/1677247564965?e=2147483647&v=beta&t=U8pe_UTfVUV2N-T-v5HU7CHxtqt9kyZKl9A608KL6JY" alt="profile pic"/>
     
             <p className="p-3">
                 

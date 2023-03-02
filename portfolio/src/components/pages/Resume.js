@@ -8,7 +8,7 @@ function Resume () {
             <h3>Resume</h3>
              </div>
             <div className="card-body">
-            <ul className="row ml-2 mr-2 mb-5">
+            {/* <ul className="row ml-2 mr-2 mb-5">
                             <li className="col-sm-12 col-md-4 skills text-light mb-2"><h5>Skills</h5></li>
                             <li className="col-sm-12 col-md-4 font-weight-light mb-2"><img style={{width: "2rem"}}src="https://th.bing.com/th/id/R.e6d82362f50c26c1b0e6186b99e18e3c?rik=ZkiNhqWudt2EYQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-PTty3CfTGnA%2fTpZOEjTQ_WI%2fAAAAAAAAAeo%2fKeKt_D5X2xo%2fs1600%2fjs.jpg&ehk=uLz7cG48BbXqyb7LS1GN3v3uFyOhkFlskPBBnFx4ryc%3d&risl=&pid=ImgRaw&r=0" alt="JavaScript" /> JavaScript </li>
                             <li className="col-sm-12 col-md-4 font-weight-light mb-2"><img style={{width: "1.7rem"}}src="https://egenteas.sirv.com/exato/project/react_icon.png" alt="React" /> React</li>
@@ -18,7 +18,7 @@ function Resume () {
                             <li className="col-sm-12 col-md-4 font-weight-light mb-2"><img style={{width: "2rem"}}src="https://basesdedatosactividad2.files.wordpress.com/2014/08/mongo-db-alternate-logo.png" alt="mongoDB" /> MongoDB</li>
                             <li className="col-sm-12 col-md-4 font-weight-light mb-2"><img style={{width: "2rem"}}src="https://i.pinimg.com/originals/50/d0/83/50d0834e3e146ad945ee8b4f89b5b309.png" alt="node" /> Node.js </li>
                             <li className="col-sm-12 col-md-4 font-weight-light mb-2"><img style={{width: "2rem"}}src="https://th.bing.com/th/id/OIP.1fZjQpkRMKTBGN_7H5YnFwHaGL?pid=ImgDet&rs=1" alt="express.js" /> Express.js </li>
-                    </ul>
+                    </ul> */}
              <p className="card-text">Link to downloadabe resume.</p>
              <a href={pcresume} download className="badge badge-success p-2">click here to download</a>
             </div>

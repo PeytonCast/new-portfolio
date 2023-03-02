@@ -5,14 +5,12 @@ function About () {
     return (
         <div>
             <h3 className="m-2">About Me</h3>
-            <img id="myself" style={{width: "200px"}} className="rounded-circle m-2 img1" src="https://media.licdn.com/dms/image/D5603AQHya5Omv95cNw/profile-displayphoto-shrink_800_800/0/1677247564965?e=2147483647&v=beta&t=U8pe_UTfVUV2N-T-v5HU7CHxtqt9kyZKl9A608KL6JY" alt="profile pic"/>
-    
-            <p className="p-3">
-
+            <img id="myself" style={{width: "200px"}} className="rounded-circle m-3 img1" src="https://media.licdn.com/dms/image/D5603AQHya5Omv95cNw/profile-displayphoto-shrink_800_800/0/1677247564965?e=2147483647&v=beta&t=U8pe_UTfVUV2N-T-v5HU7CHxtqt9kyZKl9A608KL6JY" alt="profile pic"/>
+            <p  className="p-4 highlight text-light">
                I am a certified Full Stack Web Developer with specialized knowledge in Google Analytics 4. 
                My passion for technology is fueled by the challenges presented by problem-solving and the thrill of mastering new technologies. 
-               With a penchant for innovation, I am driven to transform great ideas into fully-realized products.
-               <br/>
+               With a penchant for innovation, I am driven to transform great ideas into fully-realized products.</p>
+            <p className="p-3">
                I pride myself on my adaptability and ability to learn quickly,
                which have enabled me to stay current with the ever-evolving tech industry.
                Furthermore, I am an effective communicator and thrive in collaborative team environments where I can contribute my skills and expertise to the collective success of a project.

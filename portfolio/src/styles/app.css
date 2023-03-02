@@ -13,6 +13,12 @@ body{
 .header {
     background-color: var(--redwood);
 }
+.highlight {
+
+    border-radius: 10%;
+    background-color: var(--redwood);
+    
+}
 .navb {
     background-color: var(--raw-umber);
 }

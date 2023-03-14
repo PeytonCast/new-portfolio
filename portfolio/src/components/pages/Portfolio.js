@@ -53,7 +53,7 @@ function Portfolio () {
                     <img src={textEditor} alt="Text editor" />
                     <div className="p-2">
                         <p><a href="https://github.com/PeytonCast/PWA-text-editor">Text Editor PWA (repository)</a></p>
-                        <p><a href="https://gt12-3.herokuapp.com/">Text Editor PWA (site)</a></p>
+                        {/* <p><a href="https://gt12-3.herokuapp.com/">Text Editor PWA (site)</a></p> */}
                     </div> 
                     </section>
             {/* </div>

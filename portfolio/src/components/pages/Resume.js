@@ -1,5 +1,5 @@
 // link to downloadabe resume 
-import pcresume from "../../assets/resume/pcresume.pdf"
+import pcresume from "../../assets/resume/PeytonCastilloResume.pdf"
 import React from "react";
 function Resume () {
     return (
